@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_can_transceivers") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/0_can_transceivers.kicad_sym") (options "") (descr "CAN transceiver symbols"))
+)

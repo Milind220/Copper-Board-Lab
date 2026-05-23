@@ -1,0 +1,130 @@
+{
+  "schema_version": "symbol.v1",
+  "part_number": "TJA1462AT/0Z",
+  "manufacturer": "NXP Semiconductors",
+  "description": "CAN FD signal improvement transceiver with Standby mode",
+  "designator": "U",
+  "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/TJA1462.pdf",
+  "keywords": [
+    "CAN",
+    "CAN FD",
+    "transceiver",
+    "signal improvement",
+    "standby"
+  ],
+  "package": {
+    "name": "SO8",
+    "code": "SOT96-1",
+    "pin_count": 8
+  },
+  "pins": {
+    "TXD": {
+      "pin_number": "1",
+      "pin_type": "input",
+      "description": "Transmit data input; data from CAN controller to bus lines"
+    },
+    "GND": {
+      "pin_number": "2",
+      "pin_type": "power_in",
+      "description": "Ground"
+    },
+    "VCC": {
+      "pin_number": "3",
+      "pin_type": "power_in",
+      "description": "5 V supply voltage input"
+    },
+    "RXD": {
+      "pin_number": "4",
+      "pin_type": "output",
+      "description": "Receive data output; data from bus lines to CAN controller"
+    },
+    "VIO": {
+      "pin_number": "5",
+      "pin_type": "power_in",
+      "description": "Supply voltage input for I/O level adapter in TJA1462A"
+    },
+    "CANL": {
+      "pin_number": "6",
+      "pin_type": "bidirectional",
+      "description": "LOW-level CAN bus line"
+    },
+    "CANH": {
+      "pin_number": "7",
+      "pin_type": "bidirectional",
+      "description": "HIGH-level CAN bus line"
+    },
+    "STB": {
+      "pin_number": "8",
+      "pin_type": "input",
+      "description": "Standby mode control input; active-HIGH"
+    }
+  },
+  "functional_groups": {
+    "power_in": [
+      "VCC",
+      "VIO"
+    ],
+    "power_out": [],
+    "ground": [
+      "GND"
+    ],
+    "inputs": [
+      "TXD",
+      "STB"
+    ],
+    "outputs": [
+      "RXD"
+    ],
+    "control": [
+      "STB"
+    ],
+    "interfaces": {
+      "i2c": [],
+      "spi": [],
+      "uart": [],
+      "other": [
+        "CANH",
+        "CANL",
+        "TXD",
+        "RXD"
+      ]
+    },
+    "nc": [],
+    "thermal_pad": []
+  },
+  "layout": {
+    "style": "4-sided",
+    "top": [
+      [
+        "VCC",
+        "VIO"
+      ]
+    ],
+    "left": [
+      [
+        "TXD",
+        "RXD",
+        "STB"
+      ]
+    ],
+    "right": [
+      [
+        "CANH",
+        "CANL"
+      ]
+    ],
+    "bottom": [
+      [
+        "GND"
+      ]
+    ]
+  },
+  "source": {
+    "markdown_path": "/tmp/tja1462_symbol/trace/datasheet.symbol.md",
+    "pages": [
+      3,
+      6
+    ],
+    "notes": "NXP TJA1462 Rev. 3.0, 12 February 2025. Page 3 gives SO8/SOT96-1 ordering info for TJA1462AT; page 6 gives pinning and pin description. KiCad footprint linked in symbol: Package_SO:SO-8_3.9x4.9mm_P1.27mm."
+  }
+}
