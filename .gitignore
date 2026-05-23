@@ -1,0 +1,14 @@
+# KiCad local state
+*.kicad_prl
+*.lck
+~*.kicad_*
+_autosave-*.kicad_*
+
+# KiCad backups and generated library backups
+*-backups/
+*.bak
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
