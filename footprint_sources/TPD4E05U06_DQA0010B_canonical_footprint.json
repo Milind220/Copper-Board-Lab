@@ -1,0 +1,1564 @@
+{
+  "$schema": "footprint_geometry_schema_v1.json",
+  "schemaVersion": "1.0.0",
+  "kind": "pcb-footprint-geometry",
+  "source": {
+    "pdf": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+    "page": 32,
+    "title": "TPD1E05U06, TPD4E05U06, TPD6E05U06 datasheet Rev. O",
+    "vendor": "Texas Instruments"
+  },
+  "package": {
+    "device": "TPD4E05U06",
+    "manufacturer": "Texas Instruments",
+    "packageCode": "DQA0010B",
+    "drawing": "4230307/A",
+    "type": "USON-10",
+    "pins": 10,
+    "body": {
+      "nominalWidth": 1,
+      "nominalHeight": 2.5,
+      "widthRange": [
+        0.9,
+        1.1
+      ],
+      "heightRange": [
+        2.4,
+        2.6
+      ],
+      "maxPackageHeight": 0.55,
+      "units": "mm"
+    },
+    "units": "mm"
+  },
+  "units": "mm",
+  "coordinateSystem": {
+    "origin": "package center",
+    "x": "right positive",
+    "y": "up positive",
+    "units": "mm",
+    "orientation": "top view board layout; pin 1 at upper left"
+  },
+  "layers": {
+    "copper": {
+      "semanticRole": "EXPOSED METAL SHOWN on page 32",
+      "sourceAppearance": "blue stroke rgb(0%, 50.19989%, 100%)",
+      "included": true,
+      "renderAs": "F.Cu,F.Mask"
+    },
+    "paste": {
+      "semanticRole": "SOLDER PASTE EXAMPLE on page 33",
+      "sourceAppearance": "red stroke rgb(100%, 0%, 0%)",
+      "included": true,
+      "renderAs": "F.Paste"
+    },
+    "via": {
+      "semanticRole": "center GND via called out as diameter 0.2 on page 32",
+      "sourceAppearance": "blue circle",
+      "included": true,
+      "renderAs": "plated through-hole via, drill 0.2, pad diameter 0.4"
+    }
+  },
+  "pads": [
+    {
+      "id": "cu-1",
+      "pin": "1",
+      "name": "D1+",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": 0.9,
+          "xMax": -0.135,
+          "yMax": 1.1
+        },
+        "center": {
+          "x": -0.4175,
+          "y": 1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-2",
+      "pin": "2",
+      "name": "D1-",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": 0.4,
+          "xMax": -0.135,
+          "yMax": 0.6
+        },
+        "center": {
+          "x": -0.4175,
+          "y": 0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-3",
+      "pin": "3",
+      "name": "GND",
+      "type": "smd",
+      "side": "top",
+      "role": "exposed-copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "polygon",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -0.2,
+          "xMax": 0.7,
+          "yMax": 0.2
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "x": 1.4,
+          "y": 0.4
+        },
+        "cornerRadii": {
+          "outer": 0.05
+        },
+        "points": [
+          [
+            -0.4,
+            0.2
+          ],
+          [
+            0.4,
+            0.2
+          ],
+          [
+            0.4155,
+            0.1976
+          ],
+          [
+            0.4294,
+            0.1905
+          ],
+          [
+            0.4405,
+            0.1794
+          ],
+          [
+            0.4476,
+            0.1655
+          ],
+          [
+            0.45,
+            0.15
+          ],
+          [
+            0.65,
+            0.15
+          ],
+          [
+            0.6655,
+            0.1476
+          ],
+          [
+            0.6794,
+            0.1405
+          ],
+          [
+            0.6905,
+            0.1294
+          ],
+          [
+            0.6976,
+            0.1155
+          ],
+          [
+            0.7,
+            0.1
+          ],
+          [
+            0.7,
+            -0.1
+          ],
+          [
+            0.6976,
+            -0.1155
+          ],
+          [
+            0.6905,
+            -0.1294
+          ],
+          [
+            0.6794,
+            -0.1405
+          ],
+          [
+            0.6655,
+            -0.1476
+          ],
+          [
+            0.65,
+            -0.15
+          ],
+          [
+            0.45,
+            -0.15
+          ],
+          [
+            0.4476,
+            -0.1655
+          ],
+          [
+            0.4405,
+            -0.1794
+          ],
+          [
+            0.4294,
+            -0.1905
+          ],
+          [
+            0.4155,
+            -0.1976
+          ],
+          [
+            0.4,
+            -0.2
+          ],
+          [
+            -0.4,
+            -0.2
+          ],
+          [
+            -0.4155,
+            -0.1976
+          ],
+          [
+            -0.4294,
+            -0.1905
+          ],
+          [
+            -0.4405,
+            -0.1794
+          ],
+          [
+            -0.4476,
+            -0.1655
+          ],
+          [
+            -0.45,
+            -0.15
+          ],
+          [
+            -0.65,
+            -0.15
+          ],
+          [
+            -0.6655,
+            -0.1476
+          ],
+          [
+            -0.6794,
+            -0.1405
+          ],
+          [
+            -0.6905,
+            -0.1294
+          ],
+          [
+            -0.6976,
+            -0.1155
+          ],
+          [
+            -0.7,
+            -0.1
+          ],
+          [
+            -0.7,
+            0.1
+          ],
+          [
+            -0.6976,
+            0.1155
+          ],
+          [
+            -0.6905,
+            0.1294
+          ],
+          [
+            -0.6794,
+            0.1405
+          ],
+          [
+            -0.6655,
+            0.1476
+          ],
+          [
+            -0.65,
+            0.15
+          ],
+          [
+            -0.45,
+            0.15
+          ],
+          [
+            -0.4476,
+            0.1655
+          ],
+          [
+            -0.4405,
+            0.1794
+          ],
+          [
+            -0.4294,
+            0.1905
+          ],
+          [
+            -0.4155,
+            0.1976
+          ],
+          [
+            -0.4,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cu-4",
+      "pin": "4",
+      "name": "D2+",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -0.6,
+          "xMax": -0.135,
+          "yMax": -0.4
+        },
+        "center": {
+          "x": -0.4175,
+          "y": -0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-5",
+      "pin": "5",
+      "name": "D2-",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -1.1,
+          "xMax": -0.135,
+          "yMax": -0.9
+        },
+        "center": {
+          "x": -0.4175,
+          "y": -1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-6",
+      "pin": "6",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": -1.1,
+          "xMax": 0.7,
+          "yMax": -0.9
+        },
+        "center": {
+          "x": 0.4175,
+          "y": -1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-7",
+      "pin": "7",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": -0.6,
+          "xMax": 0.7,
+          "yMax": -0.4
+        },
+        "center": {
+          "x": 0.4175,
+          "y": -0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-8",
+      "pin": "8",
+      "name": "GND",
+      "type": "smd",
+      "side": "top",
+      "role": "exposed-copper-duplicate-pin-map",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "polygon",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -0.2,
+          "xMax": 0.7,
+          "yMax": 0.2
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "x": 1.4,
+          "y": 0.4
+        },
+        "cornerRadii": {
+          "outer": 0.05
+        },
+        "points": [
+          [
+            -0.4,
+            0.2
+          ],
+          [
+            0.4,
+            0.2
+          ],
+          [
+            0.4155,
+            0.1976
+          ],
+          [
+            0.4294,
+            0.1905
+          ],
+          [
+            0.4405,
+            0.1794
+          ],
+          [
+            0.4476,
+            0.1655
+          ],
+          [
+            0.45,
+            0.15
+          ],
+          [
+            0.65,
+            0.15
+          ],
+          [
+            0.6655,
+            0.1476
+          ],
+          [
+            0.6794,
+            0.1405
+          ],
+          [
+            0.6905,
+            0.1294
+          ],
+          [
+            0.6976,
+            0.1155
+          ],
+          [
+            0.7,
+            0.1
+          ],
+          [
+            0.7,
+            -0.1
+          ],
+          [
+            0.6976,
+            -0.1155
+          ],
+          [
+            0.6905,
+            -0.1294
+          ],
+          [
+            0.6794,
+            -0.1405
+          ],
+          [
+            0.6655,
+            -0.1476
+          ],
+          [
+            0.65,
+            -0.15
+          ],
+          [
+            0.45,
+            -0.15
+          ],
+          [
+            0.4476,
+            -0.1655
+          ],
+          [
+            0.4405,
+            -0.1794
+          ],
+          [
+            0.4294,
+            -0.1905
+          ],
+          [
+            0.4155,
+            -0.1976
+          ],
+          [
+            0.4,
+            -0.2
+          ],
+          [
+            -0.4,
+            -0.2
+          ],
+          [
+            -0.4155,
+            -0.1976
+          ],
+          [
+            -0.4294,
+            -0.1905
+          ],
+          [
+            -0.4405,
+            -0.1794
+          ],
+          [
+            -0.4476,
+            -0.1655
+          ],
+          [
+            -0.45,
+            -0.15
+          ],
+          [
+            -0.65,
+            -0.15
+          ],
+          [
+            -0.6655,
+            -0.1476
+          ],
+          [
+            -0.6794,
+            -0.1405
+          ],
+          [
+            -0.6905,
+            -0.1294
+          ],
+          [
+            -0.6976,
+            -0.1155
+          ],
+          [
+            -0.7,
+            -0.1
+          ],
+          [
+            -0.7,
+            0.1
+          ],
+          [
+            -0.6976,
+            0.1155
+          ],
+          [
+            -0.6905,
+            0.1294
+          ],
+          [
+            -0.6794,
+            0.1405
+          ],
+          [
+            -0.6655,
+            0.1476
+          ],
+          [
+            -0.65,
+            0.15
+          ],
+          [
+            -0.45,
+            0.15
+          ],
+          [
+            -0.4476,
+            0.1655
+          ],
+          [
+            -0.4405,
+            0.1794
+          ],
+          [
+            -0.4294,
+            0.1905
+          ],
+          [
+            -0.4155,
+            0.1976
+          ],
+          [
+            -0.4,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cu-9",
+      "pin": "9",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": 0.4,
+          "xMax": 0.7,
+          "yMax": 0.6
+        },
+        "center": {
+          "x": 0.4175,
+          "y": 0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "cu-10",
+      "pin": "10",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "copper",
+      "sourceLayer": "copper",
+      "kicadLayers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": 0.9,
+          "xMax": 0.7,
+          "yMax": 1.1
+        },
+        "center": {
+          "x": 0.4175,
+          "y": 1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "via-center",
+      "pin": "3",
+      "name": "GND via",
+      "type": "thru_hole",
+      "side": "both",
+      "role": "plated-ground-via",
+      "sourceLayer": "via",
+      "kicadLayers": [
+        "*.Cu",
+        "*.Mask"
+      ],
+      "drill": 0.2,
+      "geometry": {
+        "shape": "circle",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.2,
+          "yMin": -0.2,
+          "xMax": 0.2,
+          "yMax": 0.2
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "x": 0.4,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "id": "paste-1",
+      "pin": "1",
+      "name": "D1+",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": 0.9,
+          "xMax": -0.135,
+          "yMax": 1.1
+        },
+        "center": {
+          "x": -0.4175,
+          "y": 1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-2",
+      "pin": "2",
+      "name": "D1-",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": 0.4,
+          "xMax": -0.135,
+          "yMax": 0.6
+        },
+        "center": {
+          "x": -0.4175,
+          "y": 0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-3",
+      "pin": "3",
+      "name": "GND",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "polygon",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -0.2,
+          "xMax": -0.1,
+          "yMax": 0.2
+        },
+        "center": {
+          "x": -0.4,
+          "y": 0
+        },
+        "size": {
+          "x": 0.6,
+          "y": 0.4
+        },
+        "cornerRadii": {
+          "outer": 0.05
+        },
+        "points": [
+          [
+            -0.4,
+            0.2
+          ],
+          [
+            -0.15,
+            0.2
+          ],
+          [
+            -0.1371,
+            0.1983
+          ],
+          [
+            -0.125,
+            0.1933
+          ],
+          [
+            -0.1146,
+            0.1854
+          ],
+          [
+            -0.1067,
+            0.175
+          ],
+          [
+            -0.1017,
+            0.1629
+          ],
+          [
+            -0.1,
+            0.15
+          ],
+          [
+            -0.1,
+            -0.15
+          ],
+          [
+            -0.1017,
+            -0.1629
+          ],
+          [
+            -0.1067,
+            -0.175
+          ],
+          [
+            -0.1146,
+            -0.1854
+          ],
+          [
+            -0.125,
+            -0.1933
+          ],
+          [
+            -0.1371,
+            -0.1983
+          ],
+          [
+            -0.15,
+            -0.2
+          ],
+          [
+            -0.4,
+            -0.2
+          ],
+          [
+            -0.4129,
+            -0.1983
+          ],
+          [
+            -0.425,
+            -0.1933
+          ],
+          [
+            -0.4354,
+            -0.1854
+          ],
+          [
+            -0.4433,
+            -0.175
+          ],
+          [
+            -0.4483,
+            -0.1629
+          ],
+          [
+            -0.45,
+            -0.15
+          ],
+          [
+            -0.65,
+            -0.15
+          ],
+          [
+            -0.6629,
+            -0.1483
+          ],
+          [
+            -0.675,
+            -0.1433
+          ],
+          [
+            -0.6854,
+            -0.1354
+          ],
+          [
+            -0.6933,
+            -0.125
+          ],
+          [
+            -0.6983,
+            -0.1129
+          ],
+          [
+            -0.7,
+            -0.1
+          ],
+          [
+            -0.7,
+            0.1
+          ],
+          [
+            -0.6983,
+            0.1129
+          ],
+          [
+            -0.6933,
+            0.125
+          ],
+          [
+            -0.6854,
+            0.1354
+          ],
+          [
+            -0.675,
+            0.1433
+          ],
+          [
+            -0.6629,
+            0.1483
+          ],
+          [
+            -0.65,
+            0.15
+          ],
+          [
+            -0.45,
+            0.15
+          ],
+          [
+            -0.4483,
+            0.1629
+          ],
+          [
+            -0.4433,
+            0.175
+          ],
+          [
+            -0.4354,
+            0.1854
+          ],
+          [
+            -0.425,
+            0.1933
+          ],
+          [
+            -0.4129,
+            0.1983
+          ],
+          [
+            -0.4,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "paste-4",
+      "pin": "4",
+      "name": "D2+",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -0.6,
+          "xMax": -0.135,
+          "yMax": -0.4
+        },
+        "center": {
+          "x": -0.4175,
+          "y": -0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-5",
+      "pin": "5",
+      "name": "D2-",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": -0.7,
+          "yMin": -1.1,
+          "xMax": -0.135,
+          "yMax": -0.9
+        },
+        "center": {
+          "x": -0.4175,
+          "y": -1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-6",
+      "pin": "6",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": -1.1,
+          "xMax": 0.7,
+          "yMax": -0.9
+        },
+        "center": {
+          "x": 0.4175,
+          "y": -1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-7",
+      "pin": "7",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": -0.6,
+          "xMax": 0.7,
+          "yMax": -0.4
+        },
+        "center": {
+          "x": 0.4175,
+          "y": -0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-8",
+      "pin": "8",
+      "name": "GND",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "polygon",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.1,
+          "yMin": -0.2,
+          "xMax": 0.7,
+          "yMax": 0.2
+        },
+        "center": {
+          "x": 0.4,
+          "y": 0
+        },
+        "size": {
+          "x": 0.6,
+          "y": 0.4
+        },
+        "cornerRadii": {
+          "outer": 0.05
+        },
+        "points": [
+          [
+            0.4,
+            0.2
+          ],
+          [
+            0.4129,
+            0.1983
+          ],
+          [
+            0.425,
+            0.1933
+          ],
+          [
+            0.4354,
+            0.1854
+          ],
+          [
+            0.4433,
+            0.175
+          ],
+          [
+            0.4483,
+            0.1629
+          ],
+          [
+            0.45,
+            0.15
+          ],
+          [
+            0.65,
+            0.15
+          ],
+          [
+            0.6629,
+            0.1483
+          ],
+          [
+            0.675,
+            0.1433
+          ],
+          [
+            0.6854,
+            0.1354
+          ],
+          [
+            0.6933,
+            0.125
+          ],
+          [
+            0.6983,
+            0.1129
+          ],
+          [
+            0.7,
+            0.1
+          ],
+          [
+            0.7,
+            -0.1
+          ],
+          [
+            0.6983,
+            -0.1129
+          ],
+          [
+            0.6933,
+            -0.125
+          ],
+          [
+            0.6854,
+            -0.1354
+          ],
+          [
+            0.675,
+            -0.1433
+          ],
+          [
+            0.6629,
+            -0.1483
+          ],
+          [
+            0.65,
+            -0.15
+          ],
+          [
+            0.45,
+            -0.15
+          ],
+          [
+            0.4483,
+            -0.1629
+          ],
+          [
+            0.4433,
+            -0.175
+          ],
+          [
+            0.4354,
+            -0.1854
+          ],
+          [
+            0.425,
+            -0.1933
+          ],
+          [
+            0.4129,
+            -0.1983
+          ],
+          [
+            0.4,
+            -0.2
+          ],
+          [
+            0.15,
+            -0.2
+          ],
+          [
+            0.1371,
+            -0.1983
+          ],
+          [
+            0.125,
+            -0.1933
+          ],
+          [
+            0.1146,
+            -0.1854
+          ],
+          [
+            0.1067,
+            -0.175
+          ],
+          [
+            0.1017,
+            -0.1629
+          ],
+          [
+            0.1,
+            -0.15
+          ],
+          [
+            0.1,
+            0.15
+          ],
+          [
+            0.1017,
+            0.1629
+          ],
+          [
+            0.1067,
+            0.175
+          ],
+          [
+            0.1146,
+            0.1854
+          ],
+          [
+            0.125,
+            0.1933
+          ],
+          [
+            0.1371,
+            0.1983
+          ],
+          [
+            0.15,
+            0.2
+          ],
+          [
+            0.4,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "paste-9",
+      "pin": "9",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": 0.4,
+          "xMax": 0.7,
+          "yMax": 0.6
+        },
+        "center": {
+          "x": 0.4175,
+          "y": 0.5
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    },
+    {
+      "id": "paste-10",
+      "pin": "10",
+      "name": "NC",
+      "type": "smd",
+      "side": "top",
+      "role": "paste",
+      "sourceLayer": "paste",
+      "kicadLayers": [
+        "F.Paste"
+      ],
+      "geometry": {
+        "shape": "rounded_rect",
+        "units": "mm",
+        "coordinateSystem": "package_center_y_up",
+        "bbox": {
+          "xMin": 0.135,
+          "yMin": 0.9,
+          "xMax": 0.7,
+          "yMax": 1.1
+        },
+        "center": {
+          "x": 0.4175,
+          "y": 1
+        },
+        "size": {
+          "x": 0.565,
+          "y": 0.2
+        },
+        "cornerRadius": 0.05
+      }
+    }
+  ],
+  "extraction": {
+    "pdfInfo": "39 pages; Rev. O; page 32 DQA0010B board layout; page 33 DQA0010B stencil",
+    "boardLayoutSvg": "/tmp/tpd4e05u06_fp/page32.svg",
+    "stencilSvg": "/tmp/tpd4e05u06_fp/page33.svg",
+    "calibration": {
+      "page32": "blue component extraction: 0.565 x 0.2 pads, 0.5 pitch, 1.4 x 0.4 center exposed metal, diameter 0.2 center circle",
+      "page33": "red component extraction: 0.565 x 0.2 normal paste apertures and two 0.6 x 0.4 ground paste apertures"
+    },
+    "assumptions": [
+      "DQA0010B selected over DQA0010A because it is the newer 12/2023 DQA drawing in this Rev. O datasheet.",
+      "Pins 3 and 8 are both GND. The source shows one continuous 1.4 x 0.4 exposed-metal island; the KiCad footprint duplicates that copper shape for pins 3 and 8 to preserve schematic pin mapping.",
+      "Center Ø0.2 feature is a GND via. Modeled as plated through-hole pin 3 with 0.2 mm drill and conservative 0.4 mm pad diameter for manufacturable annular ring."
+    ],
+    "corrections": [
+      "Second-pass audit found GND copper and GND paste apertures were stepped/notched source outlines, not plain rounded rectangles; replaced with custom polygons sampled from source vector dimensions.",
+      "KiCad F.Paste SVG export compared with datasheet page 33: fixed center paste apertures to tall 0.3 x 0.4 inner block plus 0.3 x 0.3 side tab outline; removed folded/overlapping step segments."
+    ]
+  },
+  "validation": {
+    "sourceShapeReview": {
+      "reviewed": true,
+      "pages": [
+        {
+          "page": 32,
+          "role": "board layout",
+          "layer": "blue exposed metal",
+          "components": "8 normal rounded pads, 1 continuous GND exposed-metal island, 1 center diameter 0.2 circular feature"
+        },
+        {
+          "page": 33,
+          "role": "stencil",
+          "layer": "red solder paste",
+          "components": "8 normal rounded apertures, 2 GND apertures"
+        }
+      ],
+      "shapeFamilies": [
+        {
+          "source": "normal signal/NC pads",
+          "json": "rounded_rect 0.565 x 0.2 R0.05",
+          "status": "pass"
+        },
+        {
+          "source": "GND exposed metal",
+          "json": "custom polygon stepped/notched 1.4 x 0.4 with sampled R0.05 corners, duplicated for pin 3 and pin 8",
+          "status": "pass"
+        },
+        {
+          "source": "GND paste apertures",
+          "json": "two custom polygon stepped apertures: 0.3 x 0.4 inner block plus 0.3 x 0.3 side tab, R0.05 sampled corners",
+          "status": "pass after KiCad F.Paste SVG visual check"
+        },
+        {
+          "source": "center diameter 0.2 via",
+          "json": "plated through-hole GND via, pin 3, drill 0.2, pad diameter 0.4",
+          "status": "pass with annular-ring judgement"
+        }
+      ]
+    },
+    "expectedVsActual": {
+      "copperNormalPads": "source 8, json 8",
+      "gndCopperIsland": "source 1 physical island, json 2 overlapping electrical pad records for pins 3 and 8",
+      "pasteApertures": "source 10, json 10",
+      "centerHole": "source 1 diameter 0.2 via, json 1 plated GND via drill 0.2 pad 0.4"
+    }
+  }
+}

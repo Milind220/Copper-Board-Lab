@@ -1,0 +1,141 @@
+{
+  "$schema": "https://pcb-ai.local/schemas/footprint-geometry-v1.json",
+  "schemaVersion": "1.0.0",
+  "kind": "pcb-footprint-geometry",
+  "source": {
+    "pdf": "https://www.nidec-components.com/e/catalog/switch/cas.pdf",
+    "page": 5,
+    "vendor": "Nidec Components",
+    "notes": [
+      "CAS-220A uses the CAS-220/D20 A Type recommended PCB pad outline.",
+      "Datasheet note: zero point is the center of mounting.",
+      "Official recommended pads: 6 x 1.0 mm wide pads, x pitch 1.75 mm, top/bottom pad height 1.6 mm, row gap 2.1 mm."
+    ]
+  },
+  "package": {
+    "device": "CAS-220A",
+    "manufacturer": "Nidec Components",
+    "packageCode": "CAS-220A",
+    "type": "SMD Slide Switch, 2PDT, A Type J-hook",
+    "pins": 6,
+    "body": {
+      "nominalWidth": 5.4,
+      "nominalHeight": 3.9,
+      "maxPackageHeight": 2.5,
+      "units": "mm"
+    }
+  },
+  "units": "mm",
+  "coordinateSystem": {
+    "origin": "mounting center / package center",
+    "x": "right positive",
+    "y": "up positive",
+    "units": "mm",
+    "orientation": "top-view PCB land pattern; terminal 1 at lower-left"
+  },
+  "layers": {
+    "top_copper": {
+      "semanticRole": "manufacturer recommended copper land pattern",
+      "included": true,
+      "renderAs": "copper"
+    }
+  },
+  "pads": [
+    {
+      "id": "pin-1",
+      "pin": "1",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": -2.25, "yMin": -2.65, "xMax": -1.25, "yMax": -1.05 },
+        "center": { "x": -1.75, "y": -1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    },
+    {
+      "id": "pin-2",
+      "pin": "2",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": -0.5, "yMin": -2.65, "xMax": 0.5, "yMax": -1.05 },
+        "center": { "x": 0.0, "y": -1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    },
+    {
+      "id": "pin-3",
+      "pin": "3",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": 1.25, "yMin": -2.65, "xMax": 2.25, "yMax": -1.05 },
+        "center": { "x": 1.75, "y": -1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    },
+    {
+      "id": "pin-4",
+      "pin": "4",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": -2.25, "yMin": 1.05, "xMax": -1.25, "yMax": 2.65 },
+        "center": { "x": -1.75, "y": 1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    },
+    {
+      "id": "pin-5",
+      "pin": "5",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": -0.5, "yMin": 1.05, "xMax": 0.5, "yMax": 2.65 },
+        "center": { "x": 0.0, "y": 1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    },
+    {
+      "id": "pin-6",
+      "pin": "6",
+      "type": "smd",
+      "side": "top",
+      "role": "copper_land",
+      "geometry": {
+        "shape": "rect",
+        "units": "mm",
+        "coordinateSystem": "mounting_center_y_up",
+        "bbox": { "xMin": 1.25, "yMin": 1.05, "xMax": 2.25, "yMax": 2.65 },
+        "center": { "x": 1.75, "y": 1.85 },
+        "size": { "x": 1.0, "y": 1.6 }
+      }
+    }
+  ],
+  "outlines": {
+    "body": {
+      "shape": "rect",
+      "bbox": { "xMin": -2.7, "yMin": -1.95, "xMax": 2.7, "yMax": 1.95 }
+    }
+  }
+}

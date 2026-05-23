@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_TPD4E05U06") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints/0_TPD4E05U06.pretty") (options "") (descr "TI TPD4E05U06 DQA0010B USON-10 footprints"))
+  (lib (name "0_Nidec_CAS") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints/0_Nidec_CAS.pretty") (options "") (descr "Nidec Components CAS SMD slide switch footprints"))
+)
