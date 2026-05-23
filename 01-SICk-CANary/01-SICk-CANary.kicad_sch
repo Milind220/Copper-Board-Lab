@@ -4008,16 +4008,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 87.63) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267209ac-5cc0-4080-9818-15eba667a4d2")
-	)
-	(wire
-		(pts
 			(xy 44.45 96.52) (xy 44.45 77.47)
 		)
 		(stroke
@@ -4998,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 87.63) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bbe2d0-e3f9-42e6-b971-cbb993e11db5")
+	)
+	(wire
+		(pts
 			(xy 166.37 129.54) (xy 166.37 148.59)
 		)
 		(stroke
@@ -5027,7 +5027,7 @@
 		(uuid "ff589bb4-cbd6-4024-a568-ae51b7c91b51")
 	)
 	(label "CAN_N"
-		(at 224.79 62.23 0)
+		(at 224.79 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5107,7 +5107,7 @@
 		(uuid "42746055-cfaa-441a-810c-8fcccf6e49fd")
 	)
 	(label "CAN_P"
-		(at 224.79 93.98 0)
+		(at 224.79 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 		(uuid "5de18b91-aa4e-4cbb-8522-5d3a188dbb0e")
 	)
 	(label "CAN_P"
-		(at 224.79 59.69 0)
+		(at 224.79 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5237,7 +5237,7 @@
 		(uuid "c8245a37-fc3a-47d4-a83f-c9335f5457c9")
 	)
 	(label "CAN_N"
-		(at 224.79 96.52 0)
+		(at 224.79 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 212.09 50.8) (xy 212.09 111.76) (xy 153.67 111.76) (xy 153.67 50.8)
+				(xy 181.61 50.8) (xy 181.61 109.22) (xy 153.67 109.22) (xy 153.67 50.8)
 			)
 			(stroke
 				(width 0)
@@ -6209,85 +6209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "144d9e28-4e4a-4994-aa48-8187a62a3367")
-		(property "Reference" "#PWR018"
-			(at 187.96 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ad6896a-f5a0-49c6-a5c1-d3923a64db28")
-		)
-		(instances
-			(project "01-SICk-CANary"
-				(path "/7c759a6a-3d26-4349-b767-b3a98fff81d7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 109.22 88.9 0)
 		(unit 1)
@@ -6682,10 +6603,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21d462f3-8f1e-4cf6-813b-6def2f1fbbda")
 		(property "Reference" "C2"
-			(at 148.59 62.2299 0)
+			(at 147.574 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6696,7 +6616,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 148.59 64.7699 0)
+			(at 147.574 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7128,109 +7048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 187.96 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d371c81-0a83-4682-831a-a3f3ddd4fe8f")
-		(property "Reference" "C3"
-			(at 190.754 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4n7 100V"
-			(at 190.754 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 188.9252 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 187.96 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 187.96 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "792bfc82-6ec1-4d24-a599-dadf08dd2b22")
-		)
-		(pin "2"
-			(uuid "ff4ed8d0-e1a8-41e7-aa96-a5a8b9be262b")
-		)
-		(instances
-			(project "01-SICk-CANary"
-				(path "/7c759a6a-3d26-4349-b767-b3a98fff81d7"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 90.17 83.82 90)
 		(mirror x)
@@ -7442,10 +7259,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fb0d0a7-5c2a-46a7-9e2a-6beee9172df5")
 		(property "Reference" "C1"
-			(at 120.65 62.2299 0)
+			(at 119.38 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7456,7 +7272,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 120.65 64.7699 0)
+			(at 119.38 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8053,7 +7869,7 @@
 		(dnp no)
 		(uuid "4c011ba9-321c-4feb-a89b-15a7d4ff9d88")
 		(property "Reference" "U2"
-			(at 135.636 89.154 0)
+			(at 131.318 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8064,7 +7880,7 @@
 			)
 		)
 		(property "Value" "TJA1462AT/0Z"
-			(at 135.636 91.44 0)
+			(at 131.318 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8643,6 +8459,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65c8dcc6-6297-4ded-88f5-cceffac1d2ae")
+		(property "Reference" "#PWR018"
+			(at 187.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5fbf5a6-090a-4c2a-ba75-050a156f2633")
+		)
+		(instances
+			(project "01-SICk-CANary"
+				(path "/7c759a6a-3d26-4349-b767-b3a98fff81d7"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 90.17 74.93 90)
 		(unit 1)
@@ -9069,6 +8964,109 @@
 			(project "01-SICk-CANary"
 				(path "/7c759a6a-3d26-4349-b767-b3a98fff81d7"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b8f7896-4005-4d53-93b7-2b346b8e4c98")
+		(property "Reference" "C3"
+			(at 190.754 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4n7 100V"
+			(at 190.754 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 188.9252 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "445e2493-0298-4f17-b13f-db0875a71c32")
+		)
+		(pin "2"
+			(uuid "154826a4-f281-49ee-aeef-44e0f53a388b")
+		)
+		(instances
+			(project "01-SICk-CANary"
+				(path "/7c759a6a-3d26-4349-b767-b3a98fff81d7"
+					(reference "C3")
 					(unit 1)
 				)
 			)
